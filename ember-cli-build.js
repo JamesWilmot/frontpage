@@ -9,6 +9,10 @@ module.exports = function(defaults) {
 
   // Use `app.import` to add additional libraries to the generated
   // output files.
+
+  app.import("vendor/feednami-client/1.0.2.min.js");
+  app.import("vendor/datejs/date.min.js");
+  app.import("vendor/clampjs/clamp.js");
   //
   // If you need to use different assets in different
   // environments, specify an object as the first parameter. That

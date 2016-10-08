@@ -1,0 +1,28 @@
+body {
+  text-rendering: optimizeLegibility;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+article {
+  h1 {
+    font-family: "aktiv-grotesk-std";
+    font-weight: 500;
+  }
+  font-family: 'adobe-caslon-pro', serif;
+  font-size: 20px;
+  font-variant-ligatures: common-ligatures;
+
+  font-variant-numeric: oldstyle-nums;
+  -moz-font-feature-settings: "onum";
+  -webkit-font-feature-settings: "onum";
+  font-feature-settings: "onum";
+}
+
+.ordinal {
+  font-variant-numeric: ordinal;
+  -moz-font-feature-settings: "ordn";
+  -webkit-font-feature-settings: "ordn";
+  font-feature-settings: "ordn";
+}
